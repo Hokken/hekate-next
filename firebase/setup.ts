@@ -28,7 +28,7 @@ export const firebaseConfig:FirebaseOptions = {
       if (user) {
         setUser(user);
       } else {
-        setUser(user);
+        setUser(null);
       }
     });
   }

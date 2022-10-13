@@ -2,8 +2,6 @@ import React, { createContext, useEffect, useState } from "react";
 import { auth, onAuthStateChange } from "../../firebase/setup";
 import AuthContext from "./AuthContext";
 
-
-
 type Props = {
   children: React.ReactNode;
   redirectUrl?: string;
